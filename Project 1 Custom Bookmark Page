@@ -1,0 +1,62 @@
+#Project 1#
+##Custom Bookmark Page##
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<style h2 {
+    background-color: #4B0082;
+           color: rgb(238, 212, 212);
+           padding: 10px;
+           text-align: center;
+           transition: background-color 0.3s ease;
+       }
+       style>
+
+       h3 a {
+           text-decoration: none;
+           font-size: 20px;
+           color: black;
+           display: inline-block;
+           padding: 1px;
+           transition: color 0.3s ease;
+       }
+
+
+      
+       h3 a:hover {
+           color: red; 
+       }
+       </style>
+<title>Custom Bookmark Page</title>
+<!-- Manuel Osuna
+Assignment: Creating a Custom Bookmark Page
+Mar 28, 2025 -->
+</head>
+<body>
+
+
+<h2>Mt. Sac Links</h2>
+
+
+
+<h3><a href="https://mtsac.instructure.com/" target="_blank">Canvas</a></h3>
+<h3><a href="https://mtsac.instructure.com/courses/158227" target="_blank">CISW17</a></h3>
+<h3><a href="https://www.mtsac.edu/?gad_source=1&gclid=Cj0KCQjw8pKxBhD_ARIsAPrG45n9aNz815Yz8FXUWROFJUK7Pmlh3_Q9IKYEMqFe03MWp4AfynrZmX4aAv10EALw_wcB" target="_blank">Mt. Sac Homepage</a></h3>
+<h3><a href="https://mtsac.instructure.com/" target="_blank">Student Email</a></h3>
+<h3><a href="https://experience.elluciancloud.com/msac/" target="_blank">Mt. Sac Portal</a></h3>
+
+<h2>Personal Links</h2>
+<h3><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">Personal Gmail</a></h3>
+<h3><a href="https://www.theverge.com/" target="_blank">The Verge</a></h3>
+<h3><a href="https://www.reddit.com/r/technews/?rdt=57318" target="_blank">r/technews</a></h3>
+<h3><a href="https://www.tiktok.com/@vscode?lang=en" target="_blank">TikTok Visual Studio Code</a></h3>
+<h3><a href="https://www.facebook.com/?lang=en" target="_blank">Facebook</a></h3>
+
+
+<footer></footer>
+</body>
+</html>
