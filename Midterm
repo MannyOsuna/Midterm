@@ -1,0 +1,392 @@
+#MIDTERM#
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manuel Osuna PORTFOLIO</title>
+        <!-- Add your own choice of Google Web Fonts -->
+        <link rel="stylesheet" href="styles.css">
+<!--
+   Manuel Osuna
+   Midterm
+   April 21, 2025
+-->
+
+    </head>
+
+    <body>
+        <main>
+            <!-- ***************  ABOUT / PROFILE  **************** -->
+            <header>
+                <div class="content-wrap">
+                    <h1>Manuel Osuna</h1>
+                    <h2>Student</h2>
+
+                    <p>Seeking Employment in Cyber Security/Web Design.
+                    <!-- e.g. I love building websites, and learning to code! -->
+                    <p>I love listening and playing music, Coding and media consumption</p>
+                    <!-- e.g. I spent my weekends in the mountains hiking with my friends. -->
+                </div>
+            </header>
+
+            <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+            <!-- This section will contain some projects you are working on in school, or out of school
+            You can put your clubs or other affiliations here -->
+
+            <section class="projects">
+                <div class="content-wrap divider">
+                    <h2>Featured Projects</h2>
+                    <p>Here are some projects that I am working on right now.</a>.</p>
+
+                    <!-- Project 1 -->
+                    <section class="project-item">
+                        <!-- Add an image to feature your project -->
+                        <img src="https://m.media-amazon.com/images/M/MV5BZTk5ZDI4ODQtOTY2ZS00N2U0LWFhMWQtY2VmZDA2OWZkYjkwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            alt="Bozo1">
+                        <h3>Project 1</h3>
+                        <p>A handy Personal Bookmark page</p>
+                        <a href="https://github.com/MannyOsuna/Midterm/blob/main/Project%201%20Custom%20Bookmark%20Page" target="_blank">Custom Bookmark Github</a>
+                    </section>
+
+                    <!-- Project 2 -->
+                    <section class="project-item">
+                        <!-- Add an image to feature your project -->
+                        <img src="https://i.pinimg.com/474x/d1/3a/92/d13a92fc5050c2e89f70e6ff1db0d482.jpg" alt="Bozo2">
+                        <h3>Project 2</h3>
+                        <p>A little about me</p>
+                        <a href="https://github.com/MannyOsuna/Midterm/blob/main/Project%202%20(Personal%20Webpage)" target="_blank">Personal Webpage Github</a>
+                    
+                    </section>
+
+                    <!-- Project 3 -->
+                    <section class="project-item">
+                        
+                        <img src="https://girlontheleft.com/wp-content/uploads/2021/10/bozo.jpg?w=1024" alt="Bozo3">
+                        <h3>Project 3</h3>
+                        <p>Very first template. Hello World!</p>
+                        <a href="https://github.com/MannyOsuna/Midterm/blob/main/Project%203%20First%20Class%20Template" target="_blank">First Class Template Github</a>
+                    </section>
+                </div>
+            </section>
+
+            <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+
+            <!-- Here is where you will list your classes and the degree you are pursuing -->
+            <section class="education">
+                <div class="content-wrap item-details">
+                    <h2>Education</h2>
+
+                    <!-- If you are working on the certificate, add this here, or put in your own program information -->
+                    <section>
+                        <h3>CIS Professional in Web Programming</h3>
+                        <p>Working on this currently.</p>
+                        <p>The CIS Professional Certificate in Web Programming provides students the programming skills
+                            to create effective web pages and web sites.</p>
+                        <!-- https://catalog.mtsac.edu/programs/programsaz/computer-programming/cis-professional-certificate-web-programming/ -->
+                        <a class="btn"
+                            href="https://catalog.mtsac.edu/programs/programsaz/computer-programming/cis-professional-certificate-web-programming/"
+                            target="_blank">Web Programming Certificate</a>
+                    </section>
+
+                    <!-- List your classes here -->
+                    <section>
+                        <h3>HTML, CSS, and JavaScript</h3>
+                        <p>Spring 2025</p>
+                        <p>CISW-17</p>
+                    </section>
+
+                    <section>
+                        <h3>Security in Amazon Web Service</h3>
+                        <p>Spring 2025</p>
+                        <p>CISN-74A</p>
+                    </section>
+                </div>
+            </section>
+
+            <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+            <footer>
+                <div class="content-wrap">
+
+                    <h2>Contact Me</h2>
+
+                    <!-- Social media and contact links. Add or remove any networks. -->
+                    <ul class="contact-list">
+                        <li><a href="https://www.mtsac.edu/?gad_source=1&gclid=Cj0KCQjw8pKxBhD_ARIsAPrG45n9aNz815Yz8FXUWROFJUK7Pmlh3_Q9IKYEMqFe03MWp4AfynrZmX4aAv10EALw_wcB/" target="_blank">Student Email</a></li>
+                            
+                            <a href="https://www.instagram.com/manuelosuna1988/" target="_blank">Instagram</a></li>
+                            <li>
+                                <a href="https://x.com/ManuelOsuna1988/" target="_blank">X</a></li>
+
+                        
+                        
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>
+
+</html>
+
+
+
+
+#CSS#
+/*
+COLOR PALETTE
+Choose a color palette and paste the hex codes here to use below
+https://coolors.co/
+
+<!-- Coolors Palette Widget -->
+ [--russian-violet: #2f0147ff;
+--rosy-brown: #b79d94ff;
+--battleship-gray: #969696ff;
+--dim-gray: #67697cff;
+--prussian-blue: #253d5bff;"
+--black: #000000]
+
+google fonts
+'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*/
+
+
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  footer h2 {
+    color: #000000; /* Set the text color to black */
+}
+
+  .project-item a {
+    color: #a0d2db; /* "custom bokmark page link" */
+    text-decoration: none; /* Remove underline */
+}
+.btn {
+  color: #a0d2db;
+  text-decoration: none; 
+  padding: 8px; 
+  border-radius: 4px;
+}
+
+  body {
+    color:#000000;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #253d5bff;
+    
+  }
+  img {
+    width: 300px;
+  }
+  a {
+    /* color: ; */
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h1 {
+    
+    font-size: 5em;
+    line-height: 1;
+    background-color: #2F0147;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    background-color: #2F0147;
+  }
+  header h2 {
+    font-size: 2em;
+    background-color: #2F0147;
+  }
+  h1, h2 {
+    font-weight: 700;
+    margin: 0;
+    color: #969696;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  .item-details h3 + p {
+    font-style: italic;
+  }
+  .item-details h3 ~ p {
+    margin: 0;
+  }
+  .divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+  }
+  .divider > section:last-of-type {
+    border-bottom: none;
+  }
+  
+  
+  /* Profile
+  ------------------------------------*/
+  header {
+    /* background: ; */
+    /* color: ; */
+  }
+  
+  
+  /* Projects
+  ------------------------------------*/
+  .projects {
+    /* background: ; */
+  }
+
+  .projects .content-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.project-item {
+  text-align: center; 
+}
+
+.project-item img {
+  display: block; 
+  margin: 0 auto; 
+  
+}
+
+.project-item h3,
+.project-item p {
+  margin-top: 10px; 
+}
+
+.project-item:nth-child(3) {
+  grid-column: 1 / -1; 
+  justify-self: center;
+}
+  .projects a {
+    /* color: ; */
+  }
+  .projects .btn {
+    color: #a0d2db;
+    /* background: ; */
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .projects .btn:hover {
+    background-color: #ee92c2;
+  }
+  .project-item {
+    overflow: hidden;
+  }
+  .project-item h3 {
+    margin-top: 0;
+  }
+  
+  /* Education
+  ------------------------------------*/
+  .education {
+    /* background-color: ; */
+    background-position: top right;
+    padding-bottom: 100px;
+  }
+  .education p {
+    width: 60%;
+  }
+  
+  
+  /* Contact Info
+  ------------------------------------*/
+  footer {
+    background-color: transparent;
+    /* color: ; */
+  }
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .contact-list a {
+    padding: 15px;
+    display: inline-block;
+    /* color: ; */
+  }
+
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+  header, footer {
+    text-align: center;
+    background-color: #969696;
+    padding: 20px;
+  }
+  .project-item img {
+    
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  img {
+    width: 200px;
+  }
+}
+.education h2 {
+  text-align: center;
+}
+.projects h2 {
+  text-align: center;
+  color: #969696;
+  padding: 10px;
+  margin: 0;
+}
+header p {
+ 
+  margin: 0;
+  border-radius: 5px; 
+  padding: 20px;
+}
+footer h2 {
+  background-color: transparent;
+}
+
