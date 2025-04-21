@@ -1,0 +1,57 @@
+#Project 2 Personal Webpage#
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Manuel Osuna's Personal Webpage</title>
+<!-- Manuel Osuna
+Assignment: Personal Student Webpage
+March 24, 2025 -->
+</head>
+
+
+   
+<h1 style="color: rgb(138, 43, 226);"> Manuel Osuna's Personal Webpage</h1>
+
+<nav>  
+<h2 style="text-align: center;"><ul><a href="#Courses">&#10024;Current Courses&#10024;</a></ul>
+<ul><a href="#Facts">&#10024;Fun Facts&#10024;</a></ul>
+
+</h2>
+</nav>
+
+<style>
+img {
+display: block;
+margin: auto;
+width: 100;}
+</style>
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrV7P46eRyIAmlz1VqGeYKjVdIO9ztpFM8UQ&s">
+</body>
+
+<p style="text-align: center;"><span style="font-size: 1.5em;"><b>Extremely</b></span> new to this whole thing. But I'm going to master this and not be an embarrassment&#128512;. I'm a quick learner but I second and triple guess myself&#129504;&#128078;. I'm going to make this a passion instead of just having my head in meaningless media all the time.</p>
+
+<img src="https://www.pngkey.com/png/detail/95-958508_vintage-circus-png-vintage-clowns.png" alt="Side clown" width="200" height="200">
+
+
+<section id="Courses"></section><h1 style="color: rgb(138, 43, 226);">&#11088;Current Courses&#11088;</h1></html>
+<p style="text-align: center;">CISW-17 HTML, CSS, and JavaScript and taking a continuing AWS course next month to continue my <img src="https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" alt="amazon" width="60" height="30"> journey 
+
+</p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE66koGrpFllIoxETeer6vInvs7CBnCt0hA&s">
+
+<section id="Facts"></section><h1 style="color: rgb(138, 43, 226);">&#11088;Fun Facts&#11088;</h1>
+<p style="text-align: center;">Currently in a band with friends playing the bass, I can play several musical instruments including the cello. I have a 13 year old son. I enjoy movie watching and hiking. I can cook extremely well,several dishes from different parts of the world all from scratch. I LOVE vintage clowns.</p>
+
+<a href="https://www.gettyimages.com/search/2/image?sort=mostpopular&phrase=vintage%20clowns&license=rf%2Crm" target="_blank"style="color: rgb(138, 43, 226);"><p style="text-align: center;"><span style="font-size: 1.2em;"><b>&#129313;More Vintage Clowns&#129313;</b></span></a>
+<br></br>
+<br></br>
+<footer></footer>
+</body>
+</html>
