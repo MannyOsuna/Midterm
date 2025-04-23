@@ -133,7 +133,6 @@
 
 
 
-#CSS#
 /*
 COLOR PALETTE
 Choose a color palette and paste the hex codes here to use below
@@ -316,17 +315,23 @@ html {
   /* Contact Info
   ------------------------------------*/
   footer {
-    background-color: transparent;
-    /* color: ; */
-  }
+    background-color: #67697C; /
+    color: #f5f5f5; 
+    padding: 20px; 
+}
+
+footer a:hover {
+  color: #a0d2db; /* Optional: Add a hover effect for links */
+}
+
   .contact-list {
     list-style-type: none;
     padding: 0;
   }
   .contact-list a {
-    padding: 15px;
+    padding: 10px;
     display: inline-block;
-    /* color: ; */
+    
   }
 
 
@@ -336,7 +341,7 @@ html {
   header, footer {
     text-align: center;
     background-color: #969696;
-    padding: 20px;
+    padding: 1px;
   }
   .project-item img {
     
@@ -351,6 +356,7 @@ html {
   .contact-list {
     display: flex;
     justify-content: center;
+    
   }
 }
 
@@ -389,4 +395,3 @@ header p {
 footer h2 {
   background-color: transparent;
 }
-
